@@ -1,0 +1,168 @@
+@media (max-width: 850px) {
+  .myTabs .navigation a {
+    display: flex;
+    flex-direction: column;
+    color: rgb(85, 95, 99);
+    padding-top: 1px;
+  }
+  
+  @media (max-width: 850px) {
+    .personalContacts #number{
+      text-align: left;
+    }
+
+  @media (max-width: 850px) {
+    .personalContacts #email{
+      text-align: right;
+    }
+
+  .logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: -200px;
+  }
+}
+
+/* @media screen and (max-width: 962px) {
+  #number {
+    margin-left: 12em;
+    font-size: 1rem;
+    color: black; */
+/* }
+
+  #email {
+    margin-left: 1em;
+    font-size: 1rem;
+    color: black;
+  }
+}
+@media screen and (max-width: 884px) {
+  #number {
+    margin-left: 12em;
+    font-size: 0.8rem;
+    color: black;
+  }
+
+  #email {
+    margin-left: 1em;
+    font-size: 0.8rem;
+    color: black;
+  }
+}
+@media screen and (max-width: 753px) {
+  #number {
+    margin-left: 12em;
+    font-size: 0.7rem;
+    color: black;
+  }
+
+  #email {
+    margin-left: 1em;
+    font-size: 0.7rem;
+    color: black;
+  }
+} */
+
+.socials {
+  background-color: orange;
+  font-size: 18px;
+}
+
+.myTabs {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2em;
+}
+
+.myTabs a {
+  font-size: 22px;
+  color: rgb(242, 233, 233);
+  text-decoration: none;
+  padding-top: 2.3em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.myTabs a:hover {
+  color: orange;
+}
+
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("/Media/image10.jpeg");
+
+  min-height: 410px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img h2 {
+  padding-top: 10em;
+  margin-left: 2.6em;
+}
+
+.bg-img .leanMore {
+  color: black;
+  margin-left: 5.5em;
+}
+
+.bg-img a:hover {
+  color: orange;
+}
+
+.socials {
+  background-color: orange;
+}
+
+.socials .fa-facebook {
+  margin-right: 1.5em;
+  margin-left: 4.2em;
+}
+
+.socials .fa-twitter {
+  margin-right: 1.5em;
+}
+
+.socials .fa-linkedin {
+  margin-right: 1.5em;
+}
+
+/* #number {
+  margin-left: 17em;
+  color: black;
+}
+
+#email {
+  margin-left: 2.5em;
+  color: black;
+} */
+
+/* .myTabs .home {
+  margin-left: 22em;
+} 
+
+.myTabs .contacts {
+  margin-right: 5em;
+} */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+/*..............navbarstyling...........................................*/
